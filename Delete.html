@@ -3,42 +3,63 @@
 		border: 1px solid black;
 		border-collapse:collapse;
 	}
-	td, th{
+	 td, th{
 		padding: 5px 10px;
-	}
+	} 
 	th{
 		background-color: coral;
 	}
 	.table{
 		width: 70%;
-		height: 100%;
+		height: 30%;
+	}
+	.table2{
+		width: 70%;
+		height: 70%;
 		
 	}
 	.container{
 		display:block;
 		
 	}
+	img {
+	width:80%;
+	height:80%;
+	}
+	p, td {
+	  font-size: 20px;
+	}
+
+	label {
+          font: 18px;
+        }
+  
+        input {
+          margin: 10px;
+          padding: 2px
+        }
+
 </style>
 <html>
 <body bgcolor="#ffffcc">
 <center>
 <div class="container">
 <table class="table" bgcolor="#ffffff"> <!--table contents starts here-->
-<th colspan="3"><font size="5">PERSONAL PROFILE</font></th>
-	<tr width="1000" >
-            <!--picture-->
-			<td rowspan="3" ><center><input type="file"></input></center></td>
-			<td>Last name: <b><input type="text"></input></b></td>
-		</tr>
-			<tr>
-			<td>First name: <b><input type="text"></input></b></td>
-			</tr>
-			<tr>
-			<td>Middle initial: <b><input type="text"></input></b></td>
-			</tr>
+<th colspan="3"><font size="8">PERSONAL PROFILE</font></th>
+	<tr>
+		<td width="30%"><center><input type="file"></input></center></img></td>
+		<td width="70%"><p>Last name: <b><input type="text"></input></b>
+		<br><br>First name: <b><input type="text"></input></b>
+		<br><br>Middle initial: <b><input type="text"></input></b>
+		</p>
+		</td>
+	</tr>
+</table>	
 
+<table class="table2">
+	<tr>
 		<tr>
-			<TD colspan="2" bgcolor="#ff7f50" ><center><b>DETAILS</b></center></TD>
+			<td colspan="2" bgcolor="#ff7f50" ><center><b>DETAILS</b></center></td>
 		</tr>
 
 
@@ -75,6 +96,7 @@
 			<td><b>Government ID:</b></td>
 			<td><input type="file"></input></td>
 		</tr>
+	</table>
     </form>
     
 </body>

@@ -3,15 +3,19 @@
 			border: 1px solid black;
 			border-collapse:collapse;
 		}
-		td, th{
+		 td, th{
 			padding: 5px 10px;
-		}
+		} 
 		th{
 			background-color: coral;
 		}
 		.table{
 			width: 70%;
-			height: 100%;
+			height: 30%;
+		}
+		.table2{
+			width: 70%;
+			height: 70%;
 			
 		}
 		.container{
@@ -19,8 +23,11 @@
 			
 		}
 		img {
-		width:50%;
-		height:50%;
+		width:80%;
+		height:80%;
+		}
+		p, td {
+  		font-size: 30px;
 		}
 
 </style>
@@ -29,18 +36,18 @@
 	<center>
 <div class="container">
 <table class="table" bgcolor="#ffffff"> <!--table contents starts here-->
-	<th colspan="3"><font size="5">PERSONAL PROFILE</font></th>
-		<tr width="200" >
-			<td rowspan="3" ><center><img  width="auto" src="picture.png"></img></center></td>
-			<td>Last name: <b>Santos</b></td>
+	<th colspan="3"><font size="8">PERSONAL PROFILE</font></th>
+		<tr>
+			<td width="30%"><center><img src="picture.png"></center></img></td>
+			<td width="70%"><p>Last name: <b>Santos</b>
+			<br><br>First name: <b>Bianca</b>
+			<br><br>Middle initial: <b>A</b>
+			</p>
+			</td>
 		</tr>
-			<tr >
-			<td>First name: <b>Bianca</b></td>
-			</tr>
-			<tr>
-			<td>Middle initial: <b>A</b></td>
-			</tr>
+	</table>	
 
+	<table class="table2">
 		<tr>
 			<TD colspan="2" bgcolor="#ff7f50" ><center>DETAILS</center></TD>
 		</tr>
@@ -78,6 +85,7 @@
 			<td><b>Government ID:</b></td>
 			<td>[NATIONAL ID]</td>
 		</tr>
+	</table>
 	</div>	
 	</body>				
 </html>
